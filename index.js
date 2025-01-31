@@ -7,5 +7,14 @@ function subtract(a, b) {
 	return a - b;
 }
 
-console.log(2);
-ß
+function multify(a, b) {
+	return a * b;
+}
+
+function testAdd() {
+	console.log(add(1, 1) == 2);
+}
+
+function testSubtract() {
+	console.log(subtract(2, 1) == 1);
+}
